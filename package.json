@@ -1,0 +1,23 @@
+{
+  "name": "create-koa-app",
+  "version": "1.0.0",
+  "type": "module",
+  "keywords": [
+    "koa",
+    "cli"
+  ],
+  "description": "Create a koa project with one command.",
+  "main": "index.js",
+  "repository": "https://github.com/miaochenxi/create-koa-app.git",
+  "author": "miaochenxi <miaochenxi@outlook.com>",
+  "license": "MIT",
+  "private": false,
+  "bin": {
+    "koa": "./index.js"
+  },
+  "dependencies": {
+    "chalk": "^5.0.0",
+    "commander": "^8.3.0",
+    "prompts": "^2.4.2"
+  }
+}
