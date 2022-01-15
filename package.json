@@ -1,11 +1,12 @@
 {
-  "name": "create-koa-app",
+  "name": "koa-cka",
   "version": "1.0.0",
   "keywords": [
     "koa",
-    "cli"
+    "cli",
+    "create"
   ],
-  "description": "Create a koa project with one command.",
+  "description": "Create a koa project with one command.(cka:create-koa-app)",
   "main": "index.js",
   "repository": "https://github.com/miaochenxi/create-koa-app.git",
   "author": "miaochenxi <miaochenxi@outlook.com>",
