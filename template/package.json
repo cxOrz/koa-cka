@@ -1,17 +1,18 @@
 {
   "name": "koa-template",
+  "description": "A Simple Koa template made by mcx.",
   "version": "1.0.0",
-  "description": "Koa template.",
-  "main": "app.js",
+  "keywords": [
+    "koa",
+    "template"
+  ],
+  "files": [
+    "config",
+    "function",
+    "utils",
+    "app.js"
+  ],
   "repository": "https://github.com/miaochenxi/koa-cli.git",
   "author": "miaochenxi <miaochenxi@outlook.com>",
-  "license": "MIT",
-  "scripts": {
-    "start": "node app.js"
-  },
-  "dependencies": {
-    "koa": "^2.13.4",
-    "koa-bodyparser": "^4.3.0",
-    "koa-router": "^10.1.1"
-  }
+  "license": "MIT"
 }

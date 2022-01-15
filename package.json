@@ -14,9 +14,15 @@
   "bin": {
     "koa": "./index.js"
   },
+  "files": [
+    "lib",
+    "template",
+    "index.js"
+  ],
   "dependencies": {
     "chalk": "4",
     "commander": "^8.3.0",
+    "cross-spawn": "^7.0.3",
     "prompts": "^2.4.2"
   }
 }
