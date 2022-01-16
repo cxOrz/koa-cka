@@ -1,6 +1,6 @@
 {
   "name": "koa-cka",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "private": false,
   "description": "Create a koa project with one command.",
   "repository": "https://github.com/miaochenxi/koa-cka.git",
