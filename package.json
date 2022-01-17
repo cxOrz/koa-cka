@@ -1,6 +1,6 @@
 {
   "name": "koa-cka",
-  "version": "1.1.0",
+  "version": "1.3.0",
   "private": false,
   "description": "Create a koa project with one command.",
   "repository": "https://github.com/miaochenxi/koa-cka.git",
@@ -21,6 +21,7 @@
   ],
   "dependencies": {
     "chalk": "4",
+    "chokidar": "^3.5.2",
     "commander": "^8.3.0",
     "cross-spawn": "^7.0.3",
     "prompts": "^2.4.2"

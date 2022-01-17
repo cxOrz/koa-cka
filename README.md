@@ -21,4 +21,10 @@ cd my-app
 npm start
 ```
 
+To start a dev server:
+```bash
+npm run serve
+```
+Once file changes server will auto restart.
+
 Enjoy your coding time.
