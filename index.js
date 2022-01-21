@@ -18,8 +18,8 @@ program.command('create <project-directory>')
   })
 
 program.command('serve <file>')
-  .description('Run your koa application in dev mode, entry file needed.')
-  .option('-d, --dev', 'The mode you choose to run your app')
+  .description('Run your koa application in [--dev] mode, entry file needed.')
+  .option('-d, --dev', 'run your app in dev mode')
   .action((file, options) => {
     serve(file, options)
   })
